@@ -1,0 +1,15 @@
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\bin\Debug\net6.0\Wk 1-prepare.exe
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\bin\Debug\net6.0\Wk 1-prepare.deps.json
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\bin\Debug\net6.0\Wk 1-prepare.runtimeconfig.json
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\bin\Debug\net6.0\Wk 1-prepare.dll
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\bin\Debug\net6.0\Wk 1-prepare.pdb
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\obj\Debug\net6.0\Wk 1-prepare.csproj.AssemblyReference.cache
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\obj\Debug\net6.0\Wk 1-prepare.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\obj\Debug\net6.0\Wk 1-prepare.AssemblyInfoInputs.cache
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\obj\Debug\net6.0\Wk 1-prepare.AssemblyInfo.cs
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\obj\Debug\net6.0\Wk 1-prepare.csproj.CoreCompileInputs.cache
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\obj\Debug\net6.0\Wk 1-prepare.dll
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\obj\Debug\net6.0\refint\Wk 1-prepare.dll
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\obj\Debug\net6.0\Wk 1-prepare.pdb
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\obj\Debug\net6.0\Wk 1-prepare.genruntimeconfig.cache
+C:\git\rgibbons131.github.io\Programming_with_classes\Wk 1-prepare\obj\Debug\net6.0\ref\Wk 1-prepare.dll

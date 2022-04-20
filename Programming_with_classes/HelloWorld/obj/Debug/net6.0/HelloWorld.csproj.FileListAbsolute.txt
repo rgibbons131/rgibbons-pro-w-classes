@@ -1,0 +1,15 @@
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\bin\Debug\net6.0\HelloWorld.exe
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\bin\Debug\net6.0\HelloWorld.deps.json
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\bin\Debug\net6.0\HelloWorld.runtimeconfig.json
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\bin\Debug\net6.0\HelloWorld.dll
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\bin\Debug\net6.0\HelloWorld.pdb
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.AssemblyReference.cache
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\obj\Debug\net6.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfoInputs.cache
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfo.cs
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.CoreCompileInputs.cache
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\obj\Debug\net6.0\HelloWorld.dll
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\obj\Debug\net6.0\refint\HelloWorld.dll
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\obj\Debug\net6.0\HelloWorld.pdb
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\obj\Debug\net6.0\HelloWorld.genruntimeconfig.cache
+C:\git\rgibbons131.github.io\Programming_with_classes\HelloWorld\obj\Debug\net6.0\ref\HelloWorld.dll
