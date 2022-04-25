@@ -10,23 +10,26 @@ namespace HelloWorld
           string ValueInText = Console.ReadLine();
 
           int percent = int.Parse(ValueInText);
+          
+          string letter = "";
 
           if (percent >= 90)
           {
-              Console.WriteLine("Your grade is an A");
+              letter = "A";
           }
           else if (percent >= 80)
           {
-              Console.WriteLine("Your grade is a B");
+              letter = "B";
           }
           else if (percent >= 70)
           {
-              Console.WriteLine("Your grade is a C");
+              letter = "C";
           }
           else
           {
-              Console.WriteLine("Your grade is an F");
+              letter = "F";
           }
+          Console.WriteLine($"Your grade is a(n) {letter}");
         }
     }
 }
