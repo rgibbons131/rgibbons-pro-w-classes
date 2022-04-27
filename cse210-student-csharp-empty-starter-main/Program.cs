@@ -1,14 +1,22 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace Cse210Starter
+namespace TicTacToe
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Tic Tac Toe by Richard Gibbons
+            Console.WriteLine("Work in progress");
 
-            // Write your code here
+            List<char> board = new List<char>();
+        }
+
+        static bool turn(List<char> board)
+        {
+            Console.WriteLine("Trial");
+            return true;
         }
     }
 }
