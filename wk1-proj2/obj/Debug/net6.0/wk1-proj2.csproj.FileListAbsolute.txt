@@ -1,0 +1,15 @@
+C:\git\rgibbons-pro-w-classes\wk1-proj2\bin\Debug\net6.0\wk1-proj2.exe
+C:\git\rgibbons-pro-w-classes\wk1-proj2\bin\Debug\net6.0\wk1-proj2.deps.json
+C:\git\rgibbons-pro-w-classes\wk1-proj2\bin\Debug\net6.0\wk1-proj2.runtimeconfig.json
+C:\git\rgibbons-pro-w-classes\wk1-proj2\bin\Debug\net6.0\wk1-proj2.dll
+C:\git\rgibbons-pro-w-classes\wk1-proj2\bin\Debug\net6.0\wk1-proj2.pdb
+C:\git\rgibbons-pro-w-classes\wk1-proj2\obj\Debug\net6.0\wk1-proj2.csproj.AssemblyReference.cache
+C:\git\rgibbons-pro-w-classes\wk1-proj2\obj\Debug\net6.0\wk1-proj2.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\rgibbons-pro-w-classes\wk1-proj2\obj\Debug\net6.0\wk1-proj2.AssemblyInfoInputs.cache
+C:\git\rgibbons-pro-w-classes\wk1-proj2\obj\Debug\net6.0\wk1-proj2.AssemblyInfo.cs
+C:\git\rgibbons-pro-w-classes\wk1-proj2\obj\Debug\net6.0\wk1-proj2.csproj.CoreCompileInputs.cache
+C:\git\rgibbons-pro-w-classes\wk1-proj2\obj\Debug\net6.0\wk1-proj2.dll
+C:\git\rgibbons-pro-w-classes\wk1-proj2\obj\Debug\net6.0\refint\wk1-proj2.dll
+C:\git\rgibbons-pro-w-classes\wk1-proj2\obj\Debug\net6.0\wk1-proj2.pdb
+C:\git\rgibbons-pro-w-classes\wk1-proj2\obj\Debug\net6.0\wk1-proj2.genruntimeconfig.cache
+C:\git\rgibbons-pro-w-classes\wk1-proj2\obj\Debug\net6.0\ref\wk1-proj2.dll
