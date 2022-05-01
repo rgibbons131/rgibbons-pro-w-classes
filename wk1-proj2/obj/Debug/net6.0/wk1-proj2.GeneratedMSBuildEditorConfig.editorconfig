@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Wk_1_prepare
-build_property.ProjectDir = c:\git\rgibbons-pro-w-classes\Programming_with_classes\Wk 1-prepare\
+build_property.RootNamespace = wk1_proj2
+build_property.ProjectDir = c:\git\rgibbons-pro-w-classes\wk1-proj2\
