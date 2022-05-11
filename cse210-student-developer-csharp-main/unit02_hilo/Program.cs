@@ -1,4 +1,5 @@
 ﻿using System;
+using unit02_hilo.Game;
 
 namespace unit02_hilo
 {
@@ -6,7 +7,8 @@ namespace unit02_hilo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Dealer dealer = new Dealer();
+            dealer.startGame();
         }
     }
 }
