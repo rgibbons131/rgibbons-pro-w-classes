@@ -33,7 +33,7 @@ namespace unit02_hilo
         }
         public void displayCurrentCard(Card card)
         {
-            Console.WriteLine($"The current card is: {card.faceValue}");
+            Console.WriteLine($"The card is: {card.faceValue}");
         }
         public void displayNextCard(Card card)
         {
@@ -63,9 +63,22 @@ namespace unit02_hilo
             else{totalScore -= 75;}
             return true;
         }
+        public void updateCards()
+        {
+            table[0] = table[1];
+            table[1].drawCard();
+        }
         public void startGame()
         {
-            
+            while(isPlaying)
+            {
+                displayCurrentCard();
+                getGuess();
+                displayNextCard();
+                calculatePoints();
+                displayPoints();
+                getIsPlaying();
+            }
         } 
     }
 }
