@@ -5,7 +5,7 @@ namespace unit02_hilo
     public class Card
     {
         public int faceValue;
-        Random rand = new Random();
+        public Random rand = new Random();
         public Card()
         {
             faceValue = rand.Next(1,14);

@@ -1,5 +1,5 @@
 ﻿using System;
-using unit02_hilo.Game;
+using unit02_hilo;
 
 namespace unit02_hilo
 {

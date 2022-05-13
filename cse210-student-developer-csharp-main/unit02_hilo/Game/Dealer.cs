@@ -20,6 +20,7 @@ namespace unit02_hilo
         {
             Console.Write("Play again? [y/n]");
             string userPlaying =  Console.ReadLine();
+            Console.WriteLine();
             if(userPlaying == "y")
             {
                 return true;
@@ -65,19 +66,20 @@ namespace unit02_hilo
         }
         public void updateCards()
         {
-            table[0] = table[1];
+            table[0].faceValue = table[1].faceValue;
             table[1].drawCard();
         }
         public void startGame()
         {
             while(isPlaying)
             {
-                displayCurrentCard();
+                displayCurrentCard(table[0]);
                 getGuess();
-                displayNextCard();
-                calculatePoints();
+                displayNextCard(table[1]);
+                calculatePoints(table[0],table[1],guess);
                 displayPoints();
-                getIsPlaying();
+                isPlaying = getIsPlaying();
+                updateCards();
             }
         } 
     }
