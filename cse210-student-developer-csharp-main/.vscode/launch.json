@@ -2,13 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "unit02_hilo",
+            "name": "unit02-hilo",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-unit02-hilo",
-            "program": "${workspaceFolder}/unit02_hilo/bin/Debug/net6.0/unit02-hilo.dll",
+            "program": "${workspaceFolder}/unit02-hilo/bin/Debug/net6.0/unit02-hilo.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/unit02_hilo",
+            "cwd": "${workspaceFolder}/unit02-hilo",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false

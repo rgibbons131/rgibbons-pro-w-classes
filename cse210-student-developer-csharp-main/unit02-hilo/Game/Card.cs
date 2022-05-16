@@ -1,6 +1,6 @@
 using System;
 
-namespace unit02_hilo
+namespace unit02
 {
     public class Card
     {
