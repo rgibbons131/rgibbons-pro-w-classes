@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "unit02_hilo",
+            "name": "unit02-hilo",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-unit02-hilo",

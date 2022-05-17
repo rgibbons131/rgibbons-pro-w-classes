@@ -1,7 +1,7 @@
 ﻿using System;
-using unit02_hilo;
+using unit02;
 
-namespace unit02_hilo
+namespace unit02
 {
     class Program
     {

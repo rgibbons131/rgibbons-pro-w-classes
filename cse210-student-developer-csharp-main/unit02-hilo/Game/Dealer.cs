@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace unit02_hilo
+namespace unit02
 {
     public class Dealer
     {
