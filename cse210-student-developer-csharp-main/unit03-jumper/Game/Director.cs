@@ -1,4 +1,4 @@
-namespace Unit03.Game
+namespace unit03_jumper
 {
     /// <summary>
     /// <para>A person who directs the game.</para>
@@ -8,9 +8,9 @@ namespace Unit03.Game
     /// </summary>
     public class Director
     {
-        private Hider hider = new Hider();
+        private Word word = new Word();
         private bool isPlaying = true;
-        private Seeker seeker = new Seeker();
+        private Jumper seeker = new Jumper();
         private TerminalService terminalService = new TerminalService();
 
         /// <summary>
@@ -39,8 +39,7 @@ namespace Unit03.Game
         private void GetInputs()
         {
             //terminalService.WriteText(hider.location.ToString());
-            int location = terminalService.ReadNumber("\nEnter a location [1-1000]: ");
-            seeker.MoveLocation(location);
+
         }
 
         /// <summary>
@@ -48,7 +47,7 @@ namespace Unit03.Game
         /// </summary>
         private void DoUpdates()
         {
-            hider.WatchSeeker(seeker);
+
         }
 
         /// <summary>
@@ -56,11 +55,9 @@ namespace Unit03.Game
         /// </summary>
         private void DoOutputs()
         {
-            string hint = hider.GetHint();
-            terminalService.WriteText(hint);
-            if (hider.IsFound())
+
             {
-                isPlaying = false;
+
             }
             
         }

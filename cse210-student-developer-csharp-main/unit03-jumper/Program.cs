@@ -6,7 +6,7 @@ namespace unit03_jumper
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Jumper jump = new Jumper();
         }
     }
 }
