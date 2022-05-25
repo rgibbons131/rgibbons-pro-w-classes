@@ -39,7 +39,7 @@ namespace unit03_jumper
         /// </summary>
         private void GetInputs()
         {
-            word.GetHint(guess);
+            word.PrintHint();
             jumper.PrintParachute();
             guess = char.Parse(terminalService.ReadText("Guess a letter a-z: "));
 
@@ -51,8 +51,8 @@ namespace unit03_jumper
         private void DoUpdates()
         {
             word.CheckGuess(guess, jumper);
-            if()
-
+            word.GetHint(guess);
+            jumper.UpdateParachute();
         }
 
         /// <summary>
@@ -62,7 +62,14 @@ namespace unit03_jumper
         {
 
             {
-
+                if(!word.IsPlaying()){
+                    terminalService.WriteText("You win!");
+                    isPlaying = false;
+                }
+                else if(!jumper.IsAlive()){
+                    terminalService.WriteText("You loose.");
+                    jumper.PrintParachute();
+                    isPlaying = false;}
             }
             
         }

@@ -42,7 +42,7 @@ namespace unit03_jumper
             parachute = string.Join("\n",parachuteList);
             return parachute;
         }
-        public string UpdateParachutes(){
+        public string UpdateParachute(){
             List<string> parachuteList = new List<string>();
             if (lives == 4){
             parachuteList.Add(@"  ___  ");

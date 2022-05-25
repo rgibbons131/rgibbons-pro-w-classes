@@ -14,6 +14,7 @@ namespace unit03_jumper
     {
         private string word;
         private List<char> hint = new List<char>();
+        private string stringHint;
 
         /// <summary>
         /// Constructs a new instance of Hider. 
@@ -41,6 +42,8 @@ namespace unit03_jumper
                 counter++;
             }
             string stringHint = new string(hint.ToArray());
+        }
+        public void PrintHint(){
             Console.WriteLine(stringHint);
         }
 
