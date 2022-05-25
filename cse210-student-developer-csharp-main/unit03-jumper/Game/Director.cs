@@ -65,6 +65,7 @@ namespace unit03_jumper
                 if(!word.IsPlaying()){
                     terminalService.WriteText("You win!");
                     isPlaying = false;
+                    word.PrintHint();
                 }
                 else if(!jumper.IsAlive()){
                     terminalService.WriteText("You loose.");
