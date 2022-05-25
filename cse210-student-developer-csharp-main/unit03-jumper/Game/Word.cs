@@ -14,7 +14,7 @@ namespace unit03_jumper
     {
         private string word;
         private List<char> hint = new List<char>();
-
+        
         /// <summary>
         /// Constructs a new instance of Hider. 
         /// </summary>

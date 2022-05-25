@@ -42,7 +42,7 @@ namespace unit03_jumper
             parachute = string.Join("\n",parachuteList);
             return parachute;
         }
-        public string UpdateParachute(){
+        public void UpdateParachute(){
             List<string> parachuteList = new List<string>();
             if (lives == 4){
             parachuteList.Add(@"  ___  ");
@@ -54,9 +54,7 @@ namespace unit03_jumper
             parachuteList.Add(@"  / \  ");
             parachuteList.Add(@"       ");
             parachuteList.Add(@"^^^^^^^");
-            string parachute;
             parachute = string.Join("\n",parachuteList);
-            return parachute;
             }
             else if (lives == 3){
             parachuteList.Add(@" /___\ ");
@@ -67,9 +65,7 @@ namespace unit03_jumper
             parachuteList.Add(@"  / \  ");
             parachuteList.Add(@"       ");
             parachuteList.Add(@"^^^^^^^");
-            string parachute;
             parachute = string.Join("\n",parachuteList);
-            return parachute;
             }
             else if (lives == 2){
             parachuteList.Add(@" \   / ");
@@ -79,9 +75,7 @@ namespace unit03_jumper
             parachuteList.Add(@"  / \  ");
             parachuteList.Add(@"       ");
             parachuteList.Add(@"^^^^^^^");
-            string parachute;
             parachute = string.Join("\n",parachuteList);
-            return parachute;
             }
             else if (lives == 1){
             parachuteList.Add(@"  \ /  ");
@@ -90,18 +84,14 @@ namespace unit03_jumper
             parachuteList.Add(@"  / \  ");
             parachuteList.Add(@"       ");
             parachuteList.Add(@"^^^^^^^");
-            string parachute;
             parachute = string.Join("\n",parachuteList);
-            return parachute;
             }
             else{
             parachuteList.Add(@"   X   ");
             parachuteList.Add(@"  /|\  ");
             parachuteList.Add(@"  / \  ");
             parachuteList.Add(@"^^^^^^^");
-            string parachute;
             parachute = string.Join("\n",parachuteList);
-            return parachute;
             }
         }
         public bool IsAlive(){
@@ -111,6 +101,7 @@ namespace unit03_jumper
             else{return true;}
         }
         public void PrintParachute(){
+            Console.WriteLine();
             Console.WriteLine(parachute);
         }
     }    
