@@ -10,8 +10,9 @@ namespace unit03_jumper
     {
         private Word word = new Word();
         private bool isPlaying = true;
-        private Jumper seeker = new Jumper();
+        private Jumper jumper = new Jumper();
         private TerminalService terminalService = new TerminalService();
+        private char guess = ' ';
 
         /// <summary>
         /// Constructs a new instance of Director.
@@ -38,7 +39,9 @@ namespace unit03_jumper
         /// </summary>
         private void GetInputs()
         {
-            //terminalService.WriteText(hider.location.ToString());
+            word.GetHint(guess);
+            jumper.PrintParachute();
+            guess = char.Parse(terminalService.ReadText("Guess a letter a-z: "));
 
         }
 
@@ -47,6 +50,8 @@ namespace unit03_jumper
         /// </summary>
         private void DoUpdates()
         {
+            word.CheckGuess(guess, jumper);
+            if()
 
         }
 

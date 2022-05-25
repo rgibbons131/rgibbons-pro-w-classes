@@ -6,7 +6,8 @@ namespace unit03_jumper
     {
         static void Main(string[] args)
         {
-            Jumper jump = new Jumper();
+            Director director = new Director();
+            director.StartGame();
         }
     }
 }

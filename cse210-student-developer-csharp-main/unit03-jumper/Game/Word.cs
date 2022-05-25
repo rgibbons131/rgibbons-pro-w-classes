@@ -13,7 +13,7 @@ namespace unit03_jumper
     public class Word
     {
         private string word;
-        private List<string> hint = new List<string>();
+        private List<char> hint = new List<char>();
 
         /// <summary>
         /// Constructs a new instance of Hider. 
@@ -22,27 +22,48 @@ namespace unit03_jumper
         {
             Random random = new Random();
             word = "apple";
+            foreach(char letter in word){
+                hint.Add('_');
+            }
         }
 
         /// <summary>
         /// Gets a hint for the seeker.
         /// </summary>
         /// <returns>A new hint.</returns>
-        public string GetHint()
+        public void GetHint(char guess)
         {
-            string hint = "_ _ _ _ _";
-
-
-            return hint;
+            int counter = 0;
+            foreach(char letter in word){
+                if(guess == letter ){
+                    hint[counter] = letter;
+                };
+                counter++;
+            }
+            string stringHint = new string(hint.ToArray());
+            Console.WriteLine(stringHint);
         }
 
         /// <summary>
         /// Whether or not the hider has been found.
         /// </summary>
         /// <returns>True if found; false if otherwise.</returns>
-//        public bool IsFound()
-//        {
-//            
-//        }
+        public bool CheckGuess(char guess, Jumper jumper)
+        {
+            foreach(char letter in word){
+                if(guess == letter){
+                    return true;
+                };}
+            jumper.LooseLife();
+            return false;                
+        }
+        public bool IsPlaying(){
+            foreach(char letter in hint){
+                if (letter == '_'){
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
