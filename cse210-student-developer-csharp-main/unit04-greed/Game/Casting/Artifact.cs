@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 namespace Unit04.Game.Casting
 {
     // TODO: Implement the Artifact class here
@@ -12,15 +14,19 @@ namespace Unit04.Game.Casting
         /// The responsibility of an Artifact is to provide a message about itself.
         /// </para>
         /// </summary>
-        private string message_local;
+        private int points;
 
     // 2) Create the class constructor. Use the following method comment.
         
         /// <summary>
         /// Constructs a new instance of Artifact.
         /// </summary>
-               public Artifact(){
-
+        public Artifact(){
+            Random num = new Random();
+            points = num.Next(-1, 2);
+            while (points != 1 && points != -1){
+                points = num.Next(-1, 2);
+            }
         }
 
     // 3) Create the GetMessage() method. Use the following method comment.
@@ -29,19 +35,9 @@ namespace Unit04.Game.Casting
         /// Gets the artifact's message.
         /// </summary>
         /// <returns>The message as a string.</returns>
-        public string GetMessage(){
-            return message_local;
+        public int GetPoints(){
+            return points;
         }
         
-
-    // 4) Create the SetMessage(string message) method. Use the following method comment.
-        
-        /// <summary>
-        /// Sets the artifact's message to the given value.
-        /// </summary>
-        /// <param name="message">The given message.</param>
-        public void SetMessage(string message){
-            message_local = message;
-        }
     }
 }
